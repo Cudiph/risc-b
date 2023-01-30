@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "short_name": "__MSG_shortName__",
+  "version": "0.1.0",
+  "author": "Cudiph",
+  "description": "__MSG_extDesc__",
+  "default_locale": "id",
+  "icons": {
+    "48": "risc.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "risc-b@ordinarygamers"
+    }
+  },
+  "permissions": [
+    "storage",
+    "*://*/api/v1/cek"
+  ],
+  "background": {
+    "page": "background/index.html",
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "risc.png"
+    },
+    "default_title": "Indonesian Spell Ceker",
+    "default_popup": "popup/index.html"
+  },
+  "options_ui": {
+    "page": "options/index.html",
+    "browser_style": false
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+R"
+      },
+      "description": "__MSG_execBrowserAction__"
+    }
+  }
+
+}

@@ -1,0 +1,6 @@
+[submodule "backend/english-words"]
+	path = backend/english-words
+	url = https://github.com/dwyl/english-words.git
+[submodule "backend/kbbi"]
+	path = backend/kbbi
+	url = https://github.com/hanjoyo/kbbi.git

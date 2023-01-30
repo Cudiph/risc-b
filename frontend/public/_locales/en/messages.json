@@ -1,0 +1,17 @@
+{
+  "shortName": {
+    "message": "RISC - Bahasa Indonesia Spell Checker",
+    "description": "Short name of the extension"
+  },
+  "extName": {
+    "message": "RISC - Really Fast Indonesian Spell Ceker",
+    "description": "Name of the extension"
+  },
+  "extDesc": {
+    "message": "RISC-Β is really fast spell checker for Bahasa Indonesia, it also has some cool features that no one cares anyway",
+    "description": "Description"
+  },
+  "execBrowserAction": {
+    "message": "Open the popup"
+  }
+}

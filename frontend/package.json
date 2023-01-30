@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "echo 'VITE_WEBAPP=false' > .env.production.local && vite build --outDir ../dist/webext",
+    "watch": "echo 'VITE_WEBAPP=false' > .env.production.local && vite build -w",
+    "build:webapp": "echo 'VITE_WEBAPP=true' > .env.production.local && vite build --outDir ../dist/webapp && ./webapp.sh",
+    "watch:webapp": "echo 'VITE_WEBAPP=true' > .env.production.local && vite build -w",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier --write --plugin-search-dir=. ./**/*.{svelte,html} ./src",
+    "format:check": "prettier --check --plugin-search-dir=. ./**/*.{svelte,html} ./src"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "@tsconfig/svelte": "^3.0.0",
+    "@types/firefox-webext-browser": "^94.0.1",
+    "prettier": "^2.8.3",
+    "prettier-plugin-svelte": "^2.9.0",
+    "svelte": "^3.54.0",
+    "svelte-check": "^2.10.0",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}

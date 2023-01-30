@@ -1,0 +1,17 @@
+{
+  "shortName": {
+    "message": "RISC - Bahasa Indonesia Spell Checker",
+    "description": "Nama pendek dari ekstensi"
+  },
+  "extName": {
+    "message": "RISC - Really Fast Indonesian Spell Ceker",
+    "description": "Nama dari ekstensi"
+  },
+  "extDesc": {
+    "message": "RISC-Β adalah aplikasi spell ceker yang sangat cepat yang didukung oleh rust, redis, dan svelte. Tentunya nama ini bukan sebuah referensi xD",
+    "description": "Deskripsi dari ekstensi."
+  },
+  "execBrowserAction": {
+    "message": "Pintasan untuk membuka popup"
+  }
+}
